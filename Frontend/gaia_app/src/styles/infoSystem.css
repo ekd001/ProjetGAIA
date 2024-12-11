@@ -1,0 +1,18 @@
+.info{
+    position: relative; 
+    padding: 50px;
+}
+.info span{
+    font-weight: bold;
+}
+.message{
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+}
+
+.title{
+    color:rgb(0, 145, 255)  ;
+}
+
+

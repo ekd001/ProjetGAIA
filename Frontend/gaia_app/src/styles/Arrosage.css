@@ -1,0 +1,92 @@
+.container-a{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h2{
+    color: rgb(0, 145, 255) ;
+}
+
+.container-a .heure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.container-a .heure p{
+    color: rgb(0, 145, 255);
+}
+
+span{
+    color: black;
+    font-weight: 800;
+}
+
+.container-a .data-hum h3{
+    text-align: center;
+    color: rgb(0, 145, 255)
+}
+
+.container-a .data-hum p{
+    margin-top: 20px;
+    text-align: center;
+    color : rgb(10,255,129);
+    font-weight: bold;
+    
+}
+
+.container-a .data-temp h3{
+    text-align: center;
+    color: rgb(0, 145, 255);
+}
+
+.container-a .data-irr h3{
+    text-align: center;
+    color: rgb(0, 145, 255);
+}
+
+.container-a .data-temp p{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(179,9,9);
+    font-weight: bold;
+}
+
+.container-a .data-irr p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container-a .data-irr .button-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button{
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.container-a .data-irr .button-list .button{
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.button-open{
+    background-color: rgb(0, 255, 0);
+}
+
+.button-stop{
+    background-color: red;
+}

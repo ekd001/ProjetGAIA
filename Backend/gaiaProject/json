@@ -1,0 +1,19 @@
+{
+    "humidity":68,
+    "temperature":31
+}
+
+{
+    "humidity":50.12,
+    "temperature":35.41
+}
+
+{
+    "humidity":70.12,
+    "temperature":28.41
+}
+
+daphne -p 8001 -bind 0.0.0.0 gaiaProject.asgi:application
+uvicorn gaiaProject.asgi:application --host 0.0.0.0 --port 8001
+
+daphne -p 8001 --bind 192.168.137.1 gaiaProject.asgi:application
